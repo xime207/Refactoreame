@@ -1,0 +1,54 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(253, 253, 190)
+}
+
+@mixin texto($medida, $color) {
+    font-size: $medida;
+    color: $color;
+}
+
+@mixin centrar() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titular {
+    padding-bottom: 20px;
+
+    @include texto(50px, black);
+    @include centrar();
+}
+
+.bajada {
+    padding-bottom: 20px;
+    
+    @include texto(15px, black);
+    @include centrar();
+}
+
+.titulo-listado {
+    background-color: white;
+    padding-top: 20px;
+
+    @include texto(20px, black);
+    @include centrar();
+}
+
+.listado {
+    background-color: white;
+    padding-bottom: 20px;
+
+    @include texto(15px, black);
+    @include centrar();
+}
+
+.nota {
+    padding-top: 20px;
+
+    @include texto(30px, black);
+    @include centrar();
+}
+
+

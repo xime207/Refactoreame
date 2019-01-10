@@ -1,0 +1,57 @@
+/* line 1, ../sass/style.scss */
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fdfdbe;
+}
+
+/* line 17, ../sass/style.scss */
+.titular {
+  padding-bottom: 20px;
+  font-size: 50px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 24, ../sass/style.scss */
+.bajada {
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 31, ../sass/style.scss */
+.titulo-listado {
+  background-color: white;
+  padding-top: 20px;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 39, ../sass/style.scss */
+.listado {
+  background-color: white;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 47, ../sass/style.scss */
+.nota {
+  padding-top: 20px;
+  font-size: 30px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
